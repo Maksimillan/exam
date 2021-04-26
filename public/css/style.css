@@ -1,0 +1,43 @@
+body{
+    background-image: url('../photo/BG-9.jpg');
+}
+.logo{
+    width: 250px;
+    height: 30px;
+}
+.ads{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:550px; 
+}
+.slide{
+    width:550px;
+    height:350px;   
+}
+.slide_photo{
+    width:550px;
+    height:350px;  
+}
+.info_text{
+    width: 450px;
+    color: white;
+    font-size: 35px;
+}
+.gender_text{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+.gender_label{
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+}
+.gender_label div {
+color: white;
+}
+.title-reg{
+    color: white;
+}
