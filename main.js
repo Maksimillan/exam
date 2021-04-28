@@ -8,7 +8,7 @@ const assert =require('assert')
 const url='mongodb://localhost:27017';
 const dbName='exam';
 const client =new MongoClient(url); 
-let PORT = 8080
+let PORT = 5050
 app.listen(PORT)
 const {genHash,confimhash,genToken,chekToken} = require('./modules/crypt')
 const cookieParser = require('cookie-parser')
